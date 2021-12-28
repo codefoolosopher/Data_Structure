@@ -9,7 +9,7 @@ int LSearch(int arr[], int len, int target)
         if(arr[i] == target)
             return i;
     }
-    return -1; // no found
+    return -1; // no found(worst case)
 }
 
 int main(void)
