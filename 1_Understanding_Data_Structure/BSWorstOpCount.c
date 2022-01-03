@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-
+// To apply a binary search algorithm, data should be in a sequantial order,
+// which means that it needs ascending/descending sorting beforehand.
 int BSearch(int arr[], int len, int target)
 {
     int first = 0;
