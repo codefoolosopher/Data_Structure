@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// compare this function with "RecursiveBinarySeach.c"
 int BSearch(int arr[], int len, int target)
 {
     int first = 0;
